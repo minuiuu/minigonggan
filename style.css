@@ -1,0 +1,669 @@
+body{
+  margin:0px;
+  /* main-page */
+
+
+position: relative;
+width: 1440px;
+height: 2640px;
+
+background: #FFFFFF;
+}
+
+
+.top{
+    position: absolute;
+    height:250px;
+}
+
+.logo{
+    /* MiniGongGan */
+
+
+    position: absolute;
+    width: 146px;
+    height: 24px;
+    left: 63px;
+    top: 39px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.15em;
+
+    color: #000000;
+
+}
+
+#a1{
+    display: block;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+.menu-work{
+    /* Work */
+
+
+    position: absolute;
+    width: 44px;
+    height: 24px;
+    left: 1194px;
+    top: 39px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+
+
+.menu-contact{
+    /* Contact */
+
+
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 1285px;
+    top: 39px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.middle-left{
+    width:856px;
+}
+
+.intro-line{
+/* Line 5 */
+
+
+position: absolute;
+width: 422px;
+height: 0px;
+left: 101px;
+top: 470px;
+
+border: 5px solid #EAC8FF;
+}
+
+
+.introduce{
+    position: absolute;
+    width: 707px;
+    height: 162px;
+    left: 101px;
+    top: 269px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+    
+}
+
+.introduce1{
+
+position: absolute;
+
+height: 66px;
+left: 101px;
+top: 405px;
+
+font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: 800;
+font-size: 55px;
+line-height: 66px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+
+.introduce2{
+    position: absolute;
+    width: 750px;
+    height: 53px;
+    left: 106px;
+    top: 561px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+
+.y-heart{
+    position: absolute;
+    width: 42.22px;
+    height: 42.22px;
+    left: 947px;
+    top: 431.14px;
+}
+.y-heart-hover{
+    display: none; 
+}
+.y-heart:hover + .y-heart-hover {
+    display: block;
+    position: absolute;
+    left: 710px;
+    top: 360px;
+  }
+
+
+.apple{
+    position: absolute;
+    width: 46.02px;
+    height: 46.02px;
+    left: 873px;
+    top: 484px;
+}
+.apple-hover{
+    display: none; 
+}
+.apple:hover + .apple-hover {
+    display: block;
+    position: absolute;
+    left: 640px;
+    top: 340px;
+  }
+
+
+.p-heart{
+position: absolute;
+width: 56.57px;
+height: 56.57px;
+left: 919px;
+top: 516.14px;
+}
+.p-heart-hover{
+    display: none; 
+}
+.p-heart:hover + .p-heart-hover {
+    display: block;
+    position: absolute;
+    left: 680px;
+    top: 560px;
+  }
+
+
+.eng{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 926px;
+    top: 466.14px;    
+}
+.eng-hover{
+    display: none; 
+}
+.eng:hover + .eng-hover {
+    display: block;
+    position: absolute;
+    left: 700px;
+    top: 380px;
+  }
+
+
+.kor{
+
+    position: absolute;
+    width: 71.53px;
+    height: 71.53px;
+    left: 965px;
+    top: 516.14px;
+
+
+}
+.kor-hover{
+    display: none; 
+}
+.kor:hover + .kor-hover {
+    display: block;
+    position: absolute;
+    left: 965px;
+    top: 600px;
+  }
+
+
+.memoji{
+
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    left: 1002px;
+    top: 356.14px;
+}
+
+
+
+.star{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1125px;
+    top: 296.14px;
+}
+.star-hover{
+    display: none; 
+}
+.star:hover + .star-hover {
+    display: block;
+    position: absolute;
+    left: 900px;
+    top: 220px;
+  }
+
+
+  
+
+.think{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1185px;
+    top: 333.14px;
+}
+.think-hover{
+    display: none; 
+}
+.think:hover + .think-hover {
+    display: block;
+    position: absolute;
+    left: 855px;
+    top: 150px;
+  }
+
+
+
+.q{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1200px;
+    top: 396.14px;
+}
+.q-hover{
+    display: none; 
+}
+.q:hover + .q-hover {
+    display: block;
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+  }
+
+.movie{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1216px;
+    top: 452.14px;
+}
+.movie-hover{
+    display: none; 
+}
+.movie:hover + .movie-hover {
+    display: block;
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+  }
+
+
+.flower{
+    position: absolute;
+    width: 48.28px;
+    height: 48.28px;
+    left: 1195.86px;
+    top: 272px;
+}
+.flower-hover{
+    display: none; 
+}
+.flower:hover + .flower-hover {
+    display: block;
+    position: absolute;
+    left: 955px;
+    top: 220px;
+  }
+
+
+.coffee{
+    position: absolute;
+    width: 49.19px;
+    height: 52.16px;
+    left: 1250.22px;
+    top: 259.17px;
+}
+.coffee-hover{
+    display: none; 
+}
+.coffee:hover + .coffee-hover {
+    display: block;
+    position: absolute;
+    left: 1100px;
+    top: 190px;
+  }
+
+
+
+.camera{
+    position: absolute;
+    width: 51.02px;
+    height: 51.02px;
+    left: 1252px;
+    top: 305.14px;
+}
+.camera-hover{
+    display: none; 
+}
+.camera:hover + .camera-hover {
+    display: block;
+    position: absolute;
+    left: 995px;
+    top: 180px;
+  }
+
+
+
+.green{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1245px;
+    top: 364.14px;
+}
+.green-hover{
+    display: none; 
+}
+.green:hover + .green-hover {
+    display: block;
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+  }
+
+
+
+.air{
+    position: absolute;
+    width: 36px;
+    height: 31px;
+    left: 1258px;
+    top: 421.14px;
+}
+.air-hover{
+    display: none; 
+}
+.air:hover + .air-hover {
+    display: block;
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+  }
+
+
+
+.write{
+    position: absolute;
+    width: 31px;
+    height: 36px;
+    left: 1299px;
+    top: 383px;
+}
+.write-hover{
+    display: none; 
+}
+.write:hover + .write-hover {
+    display: block;
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+  }
+
+
+
+
+.work{
+    position: absolute;
+    width: 127px;
+    height: 60px;
+    left: 101px;
+    top: 890px;
+
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+#blank1{
+    height:50px;
+    /* margin-top:200px; */
+}
+
+.ncup-img{
+    position: absolute;
+    width: 541px;
+    height: 332px;
+    left: 136px;
+    top: 1036px;
+}
+.ncup{
+    position: absolute;
+    width: 58px;
+    height: 29px;
+    left: 137px;
+    top: 1383px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+}
+
+.woore-img{
+    position: absolute;
+    width: 541px;
+    height: 332px;
+    left: 762px;
+    top: 1456px;
+    
+}
+.woore{
+    position: absolute;
+    width: 148px;
+    height: 29px;
+    left: 766px;
+    top: 1805px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+      
+}
+
+.contact{
+    /* Just find me and Just say Hi Min */
+
+
+position: absolute;
+width: 380px;
+height: 200px;
+left: 101px;
+top: 2049px;
+
+font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
+
+
+.email{
+    position: absolute;
+width: 52px;
+height: 24px;
+left: 763px;
+top: 2084px;
+
+font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+
+.email-ad{
+    position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 770px;
+    top: 2124px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+    
+}
+hr#e  
+{  
+width: 100%;  
+height: 0px;  
+
+margin-right: auto;  
+margin-left: 0;  
+margin-top: 0; 
+ 
+color: black;  
+} 
+
+.social{
+    position: absolute;
+    width: 55px;
+    height: 24px;
+    left: 763px;
+    top: 2249px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+}
+
+.insta{
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 770px;
+    top: 2289px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+    
+}
+
+.linkedin{
+    position: absolute;
+    width: 76px;
+    height: 24px;
+    left: 770px;
+    top: 2336px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+}
