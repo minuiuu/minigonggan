@@ -1,0 +1,2298 @@
+body{
+    margin:0px;
+    /* main-page */
+  
+  
+  position: relative;
+  width: 1440px;
+  height: 13000px;
+  font-family: Apple SD Gothic Neo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px; 
+  
+
+  }
+  
+  
+  /* .top{
+    position: relative;
+    width: 1440px;
+    height: 800px;
+    
+    background-image: url('img1/ncup-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } */
+
+  .top{
+    position: absolute;
+    width: 1440px;
+    height: 874px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(img1/top-img.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .logo{
+      /* MiniGongGan */
+  
+  
+      position: absolute;
+      width: 146px;
+      height: 24px;
+      left: 63px;
+      top: 39px;
+  
+      font-family: Apple SD Gothic Neo;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height */
+  
+      letter-spacing: 0.15em;
+  
+      color: #000000;
+  
+  }
+  
+  #a1{
+      display: block;
+      color: black;
+      text-decoration: none;
+  
+  }
+  
+  
+  
+  .menu-work{
+      /* Work */
+  
+  
+      position: absolute;
+      width: 44px;
+      height: 24px;
+      left: 1194px;
+      top: 39px;
+  
+      font-family: Apple SD Gothic Neo;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height */
+  
+  
+      color: #000000;
+  }
+  
+  
+  
+  .menu-contact{
+      /* Contact */
+  
+  
+      position: absolute;
+      width: 65px;
+      height: 24px;
+      left: 1285px;
+      top: 39px;
+  
+      font-family: Apple SD Gothic Neo;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height */
+  
+  
+      color: #000000;
+  }
+  
+
+.content-left{
+    position: absolute;;
+    width:702px;
+}
+
+.emoji{
+    position: absolute;
+
+    height: 36px;
+    left: 88px;
+    top: 1032px;
+}
+
+
+.title{
+    position: absolute;
+    width: 186px;
+    height: 60px;
+    left: 91px;
+    top: 1081px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+.subtitle-rec{
+    position: absolute;
+    width: 507px;
+    height: 32px;
+    left: 88px;
+    top: 1233px;
+    
+    background: #EAC8FF;
+}
+
+.subtitle{
+    position: absolute;
+
+    height: 30px;
+    left: 91px;
+    top: 1233px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+
+.school{
+    position: absolute;
+    width: 150px;
+    height: 18px;
+    left: 105px;
+    top: 1273px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.role{
+    position: absolute;
+    width: 39px;
+    height: 18px;
+    left: 91px;
+    top: 1368px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+
+}
+
+/* Line 6 */
+
+.role-line{
+    position: absolute;
+    width: 39px;
+    height: 0px;
+    left: 91px;
+    top: 1386px;
+    
+    border: 1px solid #000000;
+}
+
+.role-text{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 91px;
+    top: 1416px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+br{
+
+        display: block;
+        margin: 3px 0;
+
+}
+
+.overview{
+
+    position: absolute;
+    width: 69px;
+    height: 18px;
+    left: 702px;
+    top: 1284px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+    
+}
+
+.overview-line{
+
+    position: absolute;
+    width: 68px;
+    height: 0px;
+    left: 703px;
+    top: 1302px;
+
+    border: 1px solid #000000;
+}
+
+.overview-text{
+    position: absolute;
+    width: 643px;
+    height: 244px;
+    left: 702px;
+    top: 1322px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+
+.define{
+    position: absolute;
+    width: 158px;
+    height: 60px;
+    left: 91px;
+    top: 1735px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+
+.brief{
+    position: absolute;
+    width: 35px;
+    height: 18px;
+    left: 88px;
+    top: 1964px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+.brief-line{
+      /* Line 10 */
+    
+    
+      position: absolute;
+      width: 34px;
+      height: 0px;
+      left: 88px;
+      top: 1982px;
+      
+      border: 1px solid #000000;
+}
+
+.brief-text{
+    position: absolute;
+    width: 512px;
+    height: 338px;
+    left: 88px;
+    top: 2065px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+
+.approach{
+    position: absolute;
+    width: 70px;
+    height: 18px;
+    left: 697px;
+    top: 1964px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+.approach-line{ 
+    position: absolute;
+    width: 68px;
+    height: 0px;
+    left: 698px;
+    top: 1982px;
+    
+    border: 1px solid #000000;
+}
+
+.approach-text{
+    position: absolute;
+    width: 643px;
+    height: 338px;
+    left: 697px;
+    top: 2063px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;    
+}
+
+.u-research{
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    left: 91px;
+    top: 2422px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+
+
+.rtd{
+    position: absolute;
+
+    height: 60px;
+    left: 91px;
+    top: 2439px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;   
+}
+
+.workshop{
+    position: absolute;
+    width: 73px;
+    height: 18px;
+    left: 83px;
+    top: 2716px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+       
+}
+
+.w-line{
+    position: absolute;
+    width: 72px;
+    height: 0px;
+    left: 84px;
+    top: 2734px;
+    
+    border: 1px solid #000000;    
+}
+
+.w-text{
+    position: absolute;
+    width: 482px;
+    height: 427px;
+    left: 88px;
+    top: 2800px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    letter-spacing: 0.05em;    
+}
+
+.rtd-1{
+    position: absolute;
+    width: 718px;
+    height: 354px;
+    left: 675px;
+    top: 2573px;
+    
+}
+.rtd-2{
+    position: absolute;
+    width: 402px;
+    height: 364px;
+    left: 643px;
+    top: 2945px;
+       
+}
+.rtd-3{
+ 
+position: absolute;
+width: 402px;
+height: 363.93px;
+left: 1023px;
+top: 2946px;
+   
+}
+
+.rec-pop{
+
+position: absolute;
+width: 384px;
+height: 143px;
+left: 94px;
+top: 3384px;
+
+background: #FFFDFD;
+border: 2px solid #6F6F6F;
+box-shadow: 2px 2px 5px 2px #EAC8FF;
+border-radius: 10px;
+}
+
+.rec-pop2{
+    position: absolute;
+    width: 384px;
+    height: 143px;
+    left: 527px;
+    top: 3384px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+    
+}
+.rec-pop3{
+    position: absolute;
+    width: 384px;
+    height: 143px;
+    left: 960px;
+    top: 3384px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;   
+}
+.rec-pop4{
+    position: absolute;
+    width: 384px;
+    height: 143px;
+    left: 94px;
+    top: 3562px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;    
+}
+.rec-pop5{
+ 
+position: absolute;
+width: 384px;
+height: 143px;
+left: 527px;
+top: 3562px;
+
+background: #FFFDFD;
+border: 2px solid #6F6F6F;
+box-shadow: 2px 2px 5px 2px #EAC8FF;
+border-radius: 10px;   
+}
+.rec-pop6{
+    position: absolute;
+    width: 384px;
+    height: 143px;
+    left: 960px;
+    top: 3562px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+        
+}
+
+
+.r-b-1{
+
+
+    
+    
+    /* “I do not know how much do I need to prepare for adopting and raising a dog.” */
+    
+    
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 122px;
+    top: 3415px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+.r-b-2{
+    position: absolute;
+    width: 335px;
+    height: 81px;
+    left: 554px;
+    top: 3415px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;    
+}
+.r-b-3{
+    position: absolute;
+width: 307px;
+height: 54px;
+left: 1003px;
+top: 3429px;
+
+font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+/* or 135% */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.r-b-4{
+    position: absolute;
+    width: 304px;
+    height: 108px;
+    left: 132px;
+    top: 3580px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+    
+}
+    
+.r-b-5{
+    position: absolute;
+    width: 335px;
+    height: 81px;
+    left: 554px;
+    top: 3593px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;    
+}
+.r-b-6{
+    position: absolute;
+    width: 288px;
+    height: 54px;
+    left: 1008px;
+    top: 3607px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+        
+}
+
+.r-b-f{
+    position: absolute;
+    width: 350px;
+    height: 18px;
+    left: 1002px;
+    top: 3724px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;    
+}
+
+.me{
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    left: 99px;
+    top: 4038px;   
+}
+
+.p1{
+
+    position: absolute;
+    width: 553px;
+    height: 30px;
+    left: 620px;
+    top: 3989px;
+    
+    background: #EAC8FF;
+}
+.p2{
+    position: absolute;
+    width: 543px;
+    height: 30px;
+    left: 650px;
+    top: 4061px;
+    
+    background: #EAC8FF;
+}
+.p3{
+    position: absolute;
+    width: 421px;
+    height: 30px;
+    left: 676px;
+    top: 4134px;
+    
+    background: #EAC8FF;   
+}
+.p1-t{
+    position: absolute;
+    width: 984px;
+    height: 50px;
+    left: 429px;
+    top: 3978px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    /* identical to box height, or 167% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;   
+}
+.p2-t{
+    position: absolute;
+    width: 984px;
+    height: 50px;
+    left: 455px;
+    top: 4051px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    /* identical to box height, or 167% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;     
+}
+.p3-t{
+    position: absolute;
+    width: 984px;
+    height: 50px;
+    left: 428px;
+    top: 4124px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    /* identical to box height, or 167% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+        
+}
+
+
+.r-in{
+    position: absolute;
+    width: 706px;
+    height: 356px;
+    left: 91px;
+    top: 4423px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+    
+}
+.r-ux{
+    position: absolute;
+    width: 505px;
+    height: 356px;
+    left: 842px;
+    top: 4423px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+
+.insight{
+    position: absolute;
+    width: 67px;
+    height: 27px;
+    left: 110px;
+    top: 4441px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    
+    letter-spacing: 0.05em;
+    
+}
+.insight-text{
+    position: absolute;
+    width: 662px;
+    height: 357px;
+    left: 110px;
+    top: 4479px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;    
+}
+
+.ux{
+    position: absolute;
+    width: 190px;
+    height: 27px;
+    left: 862px;
+    top: 4441px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+.ux-text{
+    position: absolute;
+    width: 452px;
+    height: 248px;
+    left: 862px;
+    top: 4479px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    letter-spacing: 0.05em;   
+}
+
+.methods{
+    position: absolute;
+width: 360px;
+height: 18px;
+left: 87px;
+top: 4897px;
+
+font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+.m-line{
+    position: absolute;
+    width: 133px;
+    height: 0px;
+    left: 88px;
+    top: 4915px;
+    
+    border: 1px solid #000000;    
+}
+
+.m-img{
+    position: absolute;
+width: 1124px;
+height: 434px;
+left: 194px;
+top: 4993px;
+}
+
+.ana{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 90px;
+    top: 5724px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;    
+}
+
+.persona{
+    position: absolute;
+width: 59px;
+height: 18px;
+left: 91px;
+top: 5898px;
+
+font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+.persona-line{
+    position: absolute;
+width: 55px;
+height: 0px;
+left: 92px;
+top: 5916px;
+
+border: 1px solid #000000;
+}
+
+
+.p-1-img{
+    position: absolute;
+    width: 153px;
+    height: 153px;
+    left: 83px;
+    top: 5968px;
+    
+}
+.p-2-img{
+    position: absolute;
+    width: 166px;
+    height: 157px;
+    left: 770px;
+    top: 5968px;
+    
+}
+.p-b{
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    left: 263px;
+    top: 5982px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.p-b-t{
+    position: absolute;
+    width: 398px;
+    height: 108px;
+    left: 263px;
+    top: 6006px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    
+}
+.p-b-1{
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    left: 956px;
+    top: 5982px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+.p-b-t-1{
+    position: absolute;
+    width: 397px;
+    height: 72px;
+    left: 956px;
+    top: 6006px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+
+.n-11{
+    position: absolute;
+    width: 41px;
+    height: 18px;
+    left: 132px;
+    top: 6157px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.a-11{
+    position: absolute;
+    width: 28px;
+    height: 18px;
+    left: 132px;
+    top: 6185px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+}
+.o-11{
+    position: absolute;
+    width: 83px;
+    height: 18px;
+    left: 132px;
+    top: 6213px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.h-11{
+    position: absolute;
+    width: 101px;
+    height: 18px;
+    left: 132px;
+    top: 6246px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+.g-11{
+    position: absolute;
+    width: 33px;
+    height: 18px;
+    left: 132px;
+    top: 6283px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.f-11{
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 132px;
+    top: 6343px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+}
+
+.n-11-t{
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 263px;
+    top: 6157px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.a-11-t{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    left: 263px;
+    top: 6185px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+}
+.o-11-t{
+    position: absolute;
+    width: 47px;
+    height: 18px;
+    left: 263px;
+    top: 6213px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+}
+.h-11-t{
+    position: absolute;
+    width: 167px;
+    height: 18px;
+    left: 263px;
+    top: 6246px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+}
+.g-11-t{
+    position: absolute;
+    width: 396px;
+    height: 36px;
+    left: 263px;
+    top: 6283px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    
+}
+.f-11-t{
+
+    position: absolute;
+    width: 396px;
+    height: 54px;
+    left: 263px;
+    top: 6338px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    
+}
+
+.n-12{
+    position: absolute;
+    width: 41px;
+    height: 18px;
+    left: 825px;
+    top: 6157px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.a-12{
+    position: absolute;
+width: 28px;
+height: 18px;
+left: 825px;
+top: 6185px;
+
+font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+}
+.o-12{
+    position: absolute;
+    width: 83px;
+    height: 18px;
+    left: 825px;
+    top: 6213px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.h-12{
+    position: absolute;
+    width: 101px;
+    height: 18px;
+    left: 825px;
+    top: 6246px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.g-12{
+
+    position: absolute;
+    width: 40px;
+    height: 18px;
+    left: 825px;
+    top: 6283px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.f-12{
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 825px;
+    top: 6338px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.n-12-t{
+    position: absolute;
+    width: 74px;
+    height: 18px;
+    left: 956px;
+    top: 6157px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+}
+.a-12-t{
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    left: 956px;
+    top: 6185px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+}
+.o-12-t{
+    position: absolute;
+    width: 54px;
+    height: 18px;
+    left: 956px;
+    top: 6213px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.h-12-t{
+    position: absolute;
+    width: 297px;
+    height: 18px;
+    left: 956px;
+    top: 6246px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.g-12-t{
+    position: absolute;
+    width: 396px;
+    height: 36px;
+    left: 956px;
+    top: 6283px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+}
+.f-12-t{
+    position: absolute;
+    width: 397px;
+    height: 72px;
+    left: 956px;
+    top: 6338px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+.j-m{
+    position: absolute;
+width: 100px;
+height: 18px;
+left: 91px;
+top: 6578px;
+
+font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+.j-m-line{
+    position: absolute;
+    width: 93px;
+    height: 0px;
+    left: 92px;
+    top: 6596px;
+    
+    border: 1px solid #000000;   
+}
+
+.j-img{
+    position: absolute;
+    width: 153px;
+    height: 153px;
+    left: 150px;
+    top: 6701px;
+    
+}
+.j-text{
+    position: absolute;
+    width: 933px;
+    height: 72px;
+    left: 373px;
+    top: 6742px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+.j-box{
+    position: absolute;
+    width: 1227px;
+    height: 527px;
+    left: 108px;
+    top: 6920px;
+    
+}
+
+.h-img{
+    position: absolute;
+    width: 166px;
+    height: 157px;
+    left: 138px;
+    top: 7626px;
+}
+.h-text{
+    position: absolute;
+    width: 933px;
+    height: 54px;
+    left: 373px;
+    top: 7678px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+.h-box{
+    position: absolute;
+    width: 1227px;
+    height: 527px;
+    left: 108px;
+    top: 7856px;
+}
+
+
+
+
+.cn{
+    position: absolute;
+    width: 250px;
+    height: 18px;
+    left: 77px;
+    top: 8564px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.cn-line{
+    position: absolute;
+width: 224px;
+height: 0px;
+left: 78px;
+top: 8582px;
+
+border: 1px solid #000000;
+
+}
+
+
+.q-line{
+    position: absolute;
+    width: 372px;
+    height: 0px;
+    left: 301px;
+    top: 8857px;
+    
+    border: 1px solid #000000;
+}
+.q-box1{
+    position: absolute;
+    width: 213px;
+    height: 378px;
+    left: 88px;
+    top: 8657px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+.q-box2{
+    position: absolute;
+    width: 213px;
+    height: 378px;
+    left: 377px;
+    top: 8657px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;   
+}
+.q-box3{
+    position: absolute;
+    width: 672px;
+    height: 378px;
+    left: 672px;
+    top: 8657px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;    
+}
+.q-n{
+    position: absolute;
+    width: 22px;
+    height: 27px;
+    left: 107px;
+    top: 8694px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+        
+}
+.q-t1{
+    position: absolute;
+    width: 164px;
+    height: 108px;
+    left: 107px;
+    top: 8837px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;   
+}
+.q-t2{
+    position: absolute;
+    width: 171px;
+    height: 108px;
+    left: 396px;
+    top: 8837px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+       
+}
+.q-t3{
+    position: absolute;
+    width: 553px;
+    height: 343px;
+    left: 736px;
+    top: 8674px;
+    
+      
+}
+
+
+.w-line{
+    position: absolute;
+    width: 372px;
+    height: 0px;
+    left: 301px;
+    top: 9351px;
+    
+    border: 1px solid #000000;
+}
+.w-box1{
+    position: absolute;
+    width: 213px;
+    height: 378px;
+    left: 88px;
+    top: 9151px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+.w-box2{
+    position: absolute;
+    width: 213px;
+    height: 378px;
+    left: 377px;
+    top: 9151px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+.w-box3{
+    position: absolute;
+    width: 672px;
+    height: 378px;
+    left: 672px;
+    top: 9151px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+.w-n{
+
+    position: absolute;
+    width: 25px;
+    height: 27px;
+    left: 107px;
+    top: 9188px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    
+    letter-spacing: 0.05em;
+}
+.w-t1{
+    position: absolute;
+    width: 164px;
+    height: 81px;
+    left: 107px;
+    top: 9331px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+}
+.w-t2{
+    position: absolute;
+    width: 174px;
+    height: 135px;
+    left: 396px;
+    top: 9331px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em
+}
+.w-t3{
+    position: absolute;
+    width: 354.53px;
+    height: 343px;
+    left: 831px;
+    top: 9169px;
+}
+
+
+
+.e-line{
+    position: absolute;
+    width: 372px;
+    height: 0px;
+    left: 301px;
+    top: 9845px;
+    
+    border: 1px solid #000000;
+}
+.e-box1{
+    position: absolute;
+    width: 213px;
+    height: 378px;
+    left: 88px;
+    top: 9645px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+.e-box2{
+    position: absolute;
+    width: 213px;
+    height: 378px;
+    left: 377px;
+    top: 9645px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+.e-box3{
+    position: absolute;
+    width: 672px;
+    height: 378px;
+    left: 672px;
+    top: 9645px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+.e-n{
+    position: absolute;
+    width: 25px;
+    height: 27px;
+    left: 107px;
+    top: 9682px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    
+    letter-spacing: 0.05em;
+}
+.e-t1{
+    position: absolute;
+    width: 164px;
+    height: 81px;
+    left: 107px;
+    top: 9825px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+.e-t2{
+
+    position: absolute;
+    width: 168px;
+    height: 108px;
+    left: 402px;
+    top: 9825px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+.e-t3{
+    position: absolute;
+    width: 355.43px;
+    height: 343px;
+    left: 830px;
+    top: 9663px;
+}
+
+
+.r-line{
+    position: absolute;
+    width: 372px;
+    height: 0px;
+    left: 301px;
+    top: 10339px;
+    
+    border: 1px solid #000000;
+}
+.r-box1{
+    position: absolute;
+    width: 213px;
+    height: 378px;
+    left: 88px;
+    top: 10139px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+.r-box2{
+    position: absolute;
+    width: 213px;
+    height: 872px;
+    left: 377px;
+    top: 10139px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+.r-box3{
+    position: absolute;
+    width: 672px;
+    height: 872px;
+    left: 672px;
+    top: 10139px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+    
+}
+.r-n{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 107px;
+    top: 10176px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+.r-t1{
+    position: absolute;
+    width: 164px;
+    height: 54px;
+    left: 107px;
+    top: 10319px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+}
+.r-t2{
+    position: absolute;
+    width: 164px;
+    height: 351px;
+    left: 405px;
+    top: 10413px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+    
+}
+.r-t3{
+
+    position: absolute;
+    width: 552.53px;
+    height: 753px;
+    left: 732px;
+    top: 10199px;
+    
+}
+
+
+.t-line{
+    position: absolute;
+    width: 372px;
+    height: 0px;
+    left: 301px;
+    top: 10833px;
+    
+    border: 1px solid #000000;
+}
+.t-box1{
+    position: absolute;
+    width: 213px;
+    height: 378px;
+    left: 88px;
+    top: 10633px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
+}
+
+.t-n{
+    position: absolute;
+    width: 25px;
+    height: 27px;
+    left: 107px;
+    top: 10670px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+.t-t1{
+    position: absolute;
+    width: 164px;
+    height: 108px;
+    left: 107px;
+    top: 10806px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+
+.design{
+    position: absolute;
+    width: 163px;
+    height: 60px;
+    left: 91px;
+    top: 11249px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+
+.workflow{
+    position: absolute;
+    width: 70px;
+    height: 18px;
+    left: 89px;
+    top: 11423px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.workflow-line{
+
+    position: absolute;
+    width: 69px;
+    height: 0px;
+    left: 90px;
+    top: 11441px;
+    
+    border: 1px solid #000000;
+}
+.wire{
+    position: absolute;
+    width: 76px;
+    height: 18px;
+    left: 416px;
+    top: 11423px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.wire-line{
+    position: absolute;
+    width: 75px;
+    height: 0px;
+    left: 417px;
+    top: 11441px;
+    
+    border: 1px solid #000000;
+}
+.st{
+
+    position: absolute;
+    width: 242px;
+    height: 18px;
+    left: 890px;
+    top: 11423px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+.st-line{
+    position: absolute;
+    width: 241px;
+    height: 0px;
+    left: 891px;
+    top: 11441px;
+    
+    border: 1px solid #000000;
+}
+.iimg1{
+    position: absolute;
+    width: 279px;
+    height: 352px;
+    left: 49px;
+    top: 11490px;
+}
+.iimg2{
+
+position: absolute;
+width: 321px;
+height: 404px;
+left: 413px;
+top: 11462px;
+    
+}
+.iimg3{
+    position: absolute;
+    width: 352px;
+    height: 400px;
+    left: 891px;
+    top: 11466px;
+}
+
+.bottom-text{
+    position: absolute;
+    width: 645px;
+    height: 225px;
+    left: 662px;
+    top: 12190px;
+    
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 75px;
+    /* or 187% */
+    
+    letter-spacing: 0.05em;
+    
+
+}
+.meme{
+
+    position: absolute;
+    width: 242px;
+    height: 242px;
+    left: 1122px;
+    top: 12330px;
+}
+
+.back{
+    position: absolute;
+
+height: 75px;
+left: 1000px;
+top: 12800px;
+
+font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 75px;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
