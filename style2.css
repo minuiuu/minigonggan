@@ -256,13 +256,14 @@ br{
 
 }
 
+
 .overview{
 
     position: absolute;
     width: 69px;
     height: 18px;
     left: 702px;
-    top: 1284px;
+    top: 1272px;
 
     font-family: Apple SD Gothic Neo;
     font-style: normal;
@@ -284,7 +285,7 @@ br{
     width: 68px;
     height: 0px;
     left: 703px;
-    top: 1302px;
+    top: 1290px;
 
     border: 1px solid #000000;
 }
@@ -294,7 +295,7 @@ br{
     width: 643px;
     height: 244px;
     left: 702px;
-    top: 1322px;
+    top: 1332px;
     
     font-family: Apple SD Gothic Neo;
     font-style: normal;
