@@ -184,6 +184,14 @@ color: #000000;
   }
 
 
+.pixel{
+position: absolute;
+width: 165px;
+height: 70px;
+left: 900px;
+top: 305px;
+}
+
 .apple{
     position: absolute;
     width: 46.02px;
