@@ -186,10 +186,12 @@ color: #000000;
 
 .pixel{
 position: absolute;
-width:50%;
- height:auto;
+width: 165px;
+height: 70px;
 left: 900px;
 top: 305px;
+
+background: url(img/pixel.png);
 }
 
 .apple{
