@@ -186,8 +186,8 @@ color: #000000;
 
 .pixel{
 position: absolute;
-width: 68px;
-height: 29px;
+width:50%;
+ height:auto;
 left: 900px;
 top: 305px;
 }
