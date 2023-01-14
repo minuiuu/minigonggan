@@ -190,9 +190,13 @@ width: 165px;
 height: 70px;
 left: 900px;
 top: 305px;
-
-background: url(img/pixel.png);
 }
+
+.pixel img{
+  width: 165px;
+height: 70px;
+}
+  
 
 .apple{
     position: absolute;
