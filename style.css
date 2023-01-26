@@ -12,7 +12,8 @@ background: #FFFFFF;
 
 
 .top{
-    position: absolute;
+    position: relative;
+    width: 100vh;
     height:250px;
 }
 
@@ -20,7 +21,7 @@ background: #FFFFFF;
     /* MiniGongGan */
 
 
-    position: absolute;
+    position: relative;
     width: 146px;
     height: 24px;
     left: 63px;
@@ -184,19 +185,19 @@ color: #000000;
   }
 
 
+
 .pixel{
-position: absolute;
-width: 165px;
-height: 70px;
-left: 900px;
-top: 305px;
+    position: absolute;
+    width: 165px;
+    height: 70px;
+    left: 900px;
+    top: 305px;
 }
 
 .pixel img{
-  width: 165px;
-height: 70px;
+    width: 165px;
+    height: 70px;
 }
-  
 
 .apple{
     position: absolute;

@@ -4,14 +4,15 @@ body{
   
   
   position: relative;
-  width: 90%;
-  height: 11450px;
-  font-family: Apple SD Gothic Neo;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px; 
-  
+  width: 100vw;
+  height: 11315px;
+
+
+     .zoom {
+          zoom: 0.5; /* all browsers */
+         -moz-transform: scale(0.5); /* Firefox */
+      }
+
 
   }
   
@@ -117,17 +118,14 @@ body{
   }
   
 
-.content-left{
-    position: absolute;;
-    width:702px;
-}
+
 
 .emoji{
     position: absolute;
-
-    height: 36px;
-    left: 88px;
-    top: 1032px;
+    width: 131px;
+    height: 50px;
+    left: 143px;
+    top: 1018px;
 }
 
 /* disposable */
@@ -162,16 +160,18 @@ position: relative;
 
 .title{
     position: absolute;
-    width: 122px;
-    height: 60px;
-    left: 91px;
+    width: 86px;
+    height: 42px;
+    left: 143px;
     top: 1081px;
     
-    font-family: Apple SD Gothic Neo;
+    /* head */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 42px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
@@ -181,62 +181,74 @@ position: relative;
 
 .subtitle{
 
-position: absolute;
-width: 402px;
-height: 32px;
-left: 97px;
-top: 1233px;
-
-background: #EAC8FF;
-text-align: center;
-
-font-family: Apple SD Gothic Neo;
-font-style: normal;
-font-weight: bold;
-font-size: 25px;
-line-height: 30px;
-/* identical to box height */
-
-letter-spacing: 0.05em;
-
-color: #000000;
-}
-
-.school{
     position: absolute;
-    width: 150px;
-    height: 18px;
-    left: 105px;
-    top: 1273px;
-
-    font-family: Apple SD Gothic Neo;
+    width: 400px;
+    height: 30px;
+    left: 147px;
+    top: 1223px;
+    
+    /* title */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
     /* identical to box height */
-
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 }
 
-.role{
+.subtitle-highlight{
     position: absolute;
-    width: 39px;
-    height: 18px;
-    left: 91px;
-    top: 1368px;
+    width: 405px;
+    height: 25px;
+    left: 143px;
+    top: 1223px;
+    
+    background: #EAC8FF;
+}
 
-    font-family: Apple SD Gothic Neo;
+.school{
+
+    position: absolute;
+
+    height: 18px;
+    left: 142px;
+    top: 1270px;
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+
+.role{
+
+    position: absolute;
+    width: 32px;
+    height: 18px;
+    left: 146px;
+    top: 1368px;
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
     /* identical to box height */
-
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 
 
@@ -245,56 +257,57 @@ color: #000000;
 /* Line 6 */
 
 .role-line{
-    position: absolute;
-    width: 39px;
-    height: 0px;
-    left: 91px;
-    top: 1386px;
-    
-    border: 1px solid #000000;
+   
+position: absolute;
+width: 32px;
+height: 0px;
+left: 146px;
+top: 1386px;
+
+border: 1px solid #000000;
 }
 
 .role-text{
     position: absolute;
-    width: 400px;
-    height: 150px;
-    left: 91px;
+    width: 230px;
+    height: 112px;
+    left: 146px;
     top: 1416px;
     
-    font-family: Apple SD Gothic Neo;
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
     letter-spacing: 0.05em;
     
     color: #000000;
 }
 
-br{
-
-        display: block;
-        margin: 3px 0;
-
-}
 
 .overview{
 
     position: absolute;
     width: 69px;
     height: 18px;
-    left: 702px;
+    left: 732px;
     top: 1284px;
-
-    font-family: Apple SD Gothic Neo;
+    
+    /* subtitle */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
     /* identical to box height */
-
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 
     
@@ -305,46 +318,51 @@ br{
     position: absolute;
     width: 68px;
     height: 0px;
-    left: 703px;
+    left: 733px;
     top: 1302px;
-
+    
     border: 1px solid #000000;
 }
 
 .overview-text{
-    position: absolute;
-    width: 643px;
-    height: 244px;
-    left: 702px;
-    top: 1322px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
-    
-    display: flex;
-    align-items: flex-end;
-    letter-spacing: 0.05em;
-    
-    color: #000000;
+ 
+position: absolute;
+width: 566px;
+height: 224px;
+left: 732px;
+top: 1342px;
+
+/* text */
+
+font-family: 'Apple SD Gothic Neo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 175% */
+
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.05em;
+
+color: #000000;
 }
 
 
 .define{
     position: absolute;
-    width: 158px;
-    height: 60px;
-    left: 91px;
+    width: 111px;
+    height: 42px;
+    left: 143px;
     top: 1735px;
     
-    font-family: Apple SD Gothic Neo;
+    /* head */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 42px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
@@ -357,10 +375,10 @@ br{
     position: absolute;
     width: 35px;
     height: 18px;
-    left: 88px;
+    left: 144px;
     top: 1964px;
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
@@ -375,11 +393,10 @@ br{
 .brief-line{
       /* Line 10 */
     
-    
       position: absolute;
       width: 34px;
       height: 0px;
-      left: 88px;
+      left: 144px;
       top: 1982px;
       
       border: 1px solid #000000;
@@ -387,17 +404,19 @@ br{
 
 .brief-text{
     position: absolute;
-    width: 512px;
-    height: 338px;
-    left: 88px;
+    width: 490px;
+    height: 208px;
+    left: 144px;
     top: 2065px;
     
-    font-family: Apple SD Gothic Neo;
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
     
     letter-spacing: 0.05em;
     
@@ -409,10 +428,10 @@ br{
     position: absolute;
     width: 70px;
     height: 18px;
-    left: 697px;
+    left: 733px;
     top: 1964px;
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
@@ -428,7 +447,7 @@ br{
     position: absolute;
     width: 68px;
     height: 0px;
-    left: 698px;
+    left: 734px;
     top: 1982px;
     
     border: 1px solid #000000;
@@ -436,104 +455,163 @@ br{
 
 .approach-text{
     position: absolute;
-    width: 643px;
-    height: 338px;
-    left: 697px;
+    width: 565px;
+    height: 210px;
+    left: 733px;
     top: 2063px;
+ 
+    /* text */
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
     
     letter-spacing: 0.05em;
     
-    color: #000000;    
+    color: #000000;
 }
 
 .u-research{
     position: absolute;
-    width: 350px;
-    height: 60px;
-    left: 91px;
-    top: 2422px;
+    width: 153px;
+    height: 42px;
+    left: 143px;
+    top: 2477px;
     
-    font-family: Apple SD Gothic Neo;
+    /* head */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 42px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
+    
+    color: #000000;
 }
+
+.methods{
+    position: absolute;
+    width: 683px;
+    height: 18px;
+    left: 144px;
+    top: 2625px;
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    }
+    
+    
+    .methods-line{
+
+        position: absolute;
+        width: 133px;
+        height: 0px;
+        left: 145px;
+        top: 2643px;
+        
+        border: 1px solid #000000;
+    }
+    
+    .methods-img1{
+        position: absolute;
+        width: 1124px;
+        height: 328px;
+        left: 156px;
+        top: 2675px;
+    }
+
+
+
 .pop{
-    height:450px;
+    position: absolute;
+    width: 1152px;
+    height: 322px;
+    left: 144px;
+    top: 3073px;   
 }
+
 .rec-pop{
     /* rec-pop */
 
 
-position: absolute;
-width: 384px;
-height: 143px;
-left: 91px;
-top: 2611px;
-
-background: #FFFDFD;
-border: 2px solid #6F6F6F;
-box-shadow: 2px 2px 5px 2px #EAC8FF;
-border-radius: 10px;
+    position: absolute;
+    width: 368px;
+    height: 120px;
+    left: 144px;
+    top: 3073px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
 
 }
 
 .rec-pop-text{
 
-position: absolute;
-width: 328px;
-height: 54px;
-left: 119px;
-top: 2656px;
 
-font-family: Apple SD Gothic Neo;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 27px;
-/* or 135% */
-
-letter-spacing: 0.05em;
+    position: absolute;
+    width: 293.21px;
+    height: 81px;
+    left: 182.03px;
+    top: 3106px;
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    transform: rotate(0.73deg);
 }
 
 .rec-pop-1{
 
-position: absolute;
-width: 384px;
-height: 143px;
-left: 524px;
-top: 2611px;
-
-background: #FFFDFD;
-border: 2px solid #6F6F6F;
-box-shadow: 2px 2px 5px 2px #EAC8FF;
-border-radius: 10px;
+    position: absolute;
+    width: 363px;
+    height: 120px;
+    left: 541px;
+    top: 3073px;
+    
+    background: #FFFDFD;
+    border: 2px solid #6F6F6F;
+    box-shadow: 2px 2px 5px 2px #EAC8FF;
+    border-radius: 10px;
 }
 
 .rec-pop-1-text{
     position: absolute;
-    width: 335px;
+    width: 297px;
     height: 81px;
-    left: 551px;
-    top: 2642px;
+    left: 569px;
+    top: 3093px;
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 27px;
-    /* or 135% */
+    /* or 150% */
     
     letter-spacing: 0.05em;
     
@@ -543,12 +621,11 @@ border-radius: 10px;
 .rec-pop-2{
 /* Rectangle 9 */
 
-
 position: absolute;
-width: 384px;
-height: 143px;
-left: 957px;
-top: 2611px;
+width: 366px;
+height: 120px;
+left: 928px;
+top: 3073px;
 
 background: #FFFDFD;
 border: 2px solid #6F6F6F;
@@ -558,30 +635,31 @@ border-radius: 10px;
 }
     
 .rec-pop-2-text{
-    position: absolute;
-    width: 308px;
-    height: 54px;
-    left: 1000px;
-    top: 2656px;
 
-    font-family: Apple SD Gothic Neo;
+    position: absolute;
+    width: 282px;
+    height: 54px;
+    left: 970px;
+    top: 3106px;
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 27px;
-    /* or 135% */
-
+    /* or 150% */
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 }
 
 .rec-pop-3{
     position: absolute;
-    width: 817px;
-    height: 143px;
-    left: 91px;
-    top: 2789px;
+    width: 760px;
+    height: 120px;
+    left: 144px;
+    top: 3238px;
     
     background: #FFFDFD;
     border: 2px solid #6F6F6F;
@@ -593,32 +671,32 @@ border-radius: 10px;
 .rec-pop-3-text{
      /* “I firstly bought tumblers in franchise cafe. I and my friend have waited in front of the store since 4 a.m. to buy the limited cup when cafe release seasons collections of tumblers.” */
     
-    
      position: absolute;
      width: 713px;
      height: 81px;
-     left: 129px;
-     top: 2822px;
+     left: 167px;
+     top: 3258px;
      
-     font-family: Apple SD Gothic Neo;
+     font-family: 'Apple SD Gothic Neo';
      font-style: normal;
      font-weight: 500;
-     font-size: 20px;
+     font-size: 18px;
      line-height: 27px;
-     /* or 135% */
+     /* or 150% */
      
      letter-spacing: 0.05em;
      
      color: #000000;
+     
 }
 
 
 .rec-pop-4{
     position: absolute;
-    width: 384px;
-    height: 143px;
-    left: 957px;
-    top: 2789px;
+    width: 368px;
+    height: 120px;
+    left: 928px;
+    top: 3238px;
     
     background: #FFFDFD;
     border: 2px solid #6F6F6F;
@@ -629,50 +707,50 @@ border-radius: 10px;
 
 .rec-pop-4-text{ 
     position: absolute;
-    width: 288px;
-    height: 54px;
-    left: 1005px;
-    top: 2834px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
+width: 296px;
+height: 54px;
+left: 970px;
+top: 3271px;
+
+font-family: 'Apple SD Gothic Neo';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+letter-spacing: 0.05em;
+
+color: #000000;
 }
 
 .pop-footnote{
     position: absolute;
     width: 350px;
     height: 18px;
-    left: 990px;
-    top: 2952px;
-
-    font-family: Apple SD Gothic Neo;
+    left: 951px;
+    top: 3377px;
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     /* identical to box height */
-
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 }
 
 .target{
 position: absolute;
-width: 200px;
+width: 120px;
 height: 18px;
-left: 88px;
-top: 3015px;
+left: 144px;
+top: 3479px;
 
-font-family: Apple SD Gothic Neo;
+font-family: 'Apple SD Gothic Neo';
 font-style: normal;
 font-weight: 800;
 font-size: 15px;
@@ -686,145 +764,150 @@ color: #000000;
 
 .target-line{
 
-
-position: absolute;
-width: 113px;
-height: 0px;
-left: 89px;
-top: 3033px;
-
-border: 1px solid #000000;
+    position: absolute;
+    width: 112px;
+    height: 0px;
+    left: 145px;
+    top: 3497px;
+    
+    border: 1px solid #000000;
 }
 
 .target-text{
-position: absolute;
-width: 1253px;
-height: 152px;
-left: 88px;
-top: 3053px;
-
-font-family: Apple SD Gothic Neo;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-/* or 150% */
-
-letter-spacing: 0.05em;
+    position: absolute;
+    width: 1155px;
+    height: 152px;
+    left: 143px;
+    top: 3517px;
+    
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
 }
 
 .report{
     position: absolute;
-    width: 270px;
+    width: 266px;
     height: 18px;
-    left: 88px;
-    top: 3299px;
-
-    font-family: Apple SD Gothic Neo;
+    left: 143px;
+    top: 3753px;
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
     /* identical to box height */
-
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 }
 
 .report-line{
-    position: absolute;
-    width: 262px;
-    height: 0px;
-    left: 89px;
-    top: 3317px;
-    
-    border: 1px solid #000000;
-}
+ /* Line 20 */
+
+
+position: absolute;
+width: 262px;
+height: 0px;
+left: 144px;
+top: 3771px;
+
+border: 1px solid #000000;}
+
 
 .report-img1{
+
     position: absolute;
-    width: 457px;
-    height: 470px;
-    left: 78px;
-    top: 3337px;
+    width: 1045px;
+    height: 473px;
+    left: 177px;
+    top: 3791px;
     
 }
 
-.report-img2{
-    position: absolute;
-    width: 542px;
-    height: 466px;
-    left: 526px;
-    top: 3344px;
-}
+
 
 .me{
     position: absolute;
     width: 192px;
     height: 192px;
-    left: 100px;
-    top: 4002px;
+    left: 167px;
+    top: 4427px;
     
 
 }
 .q1{
 
-    position: absolute;
-    width: 984px;
-    height: 50px;
-    left: 430px;
-    top: 3934px;
 
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 50px;
-    /* identical to box height, or 167% */
+position: absolute;
+width: 724px;
+height: 35px;
+left: 438px;
+top: 4404px;
 
-    letter-spacing: 0.05em;
+font-family: 'Apple SD Gothic Neo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 35px;
+/* identical to box height, or 175% */
 
-    color: #000000;
+letter-spacing: 0.07em;
+
+color: #000000;
 
 }
 
 .q1-rec{
 
-    position: absolute;
-    width: 411px;
-    height: 30px;
-    left: 833px;
-    top: 3943px;
 
+    position: absolute;
+    width: 283px;
+    height: 20px;
+    left: 719px;
+    top: 4411px;
+    
     background: #EAC8FF;
 }
 
 .q2-rec{
     position: absolute;
-    width: 202px;
-    height: 30px;
-    left: 931px;
-    top: 4025px;
+    width: 256px;
+    height: 20px;
+    left: 770px;
+    top: 4492px;
     
     background: #EAC8FF;
 }
 
 .q2{
     position: absolute;
-    width: 984px;
-    height: 50px;
-    left: 430px;
-    top: 4015px;
+    width: 859px;
+    height: 35px;
+    left: 536px;
+    top: 4485px;
     
-    font-family: Apple SD Gothic Neo;
+    /* bubble */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 50px;
-    /* identical to box height, or 167% */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    /* identical to box height, or 175% */
     
-    letter-spacing: 0.05em;
+    letter-spacing: 0.07em;
     
     color: #000000;
     
@@ -832,40 +915,63 @@ letter-spacing: 0.05em;
 
 .q3-rec{
     position: absolute;
-    width: 736px;
-    height: 30px;
-    left: 553px;
-    top: 4148px;
+    width: 315px;
+    height: 20px;
+    left: 605px;
+    top: 4559px;
     
     background: #EAC8FF;
 }
+
+.q4-rec{
+
+position: absolute;
+width: 490px;
+height: 20px;
+left: 438px;
+top: 4596px;
+
+background: #EAC8FF;
+}
+
+
 .q3{
     position: absolute;
-    width: 984px;
-    height: 100px;
-    left: 430px;
-    top: 4088px;
+    width: 759px;
+    height: 70px;
+    left: 438px;
+    top: 4553px;
     
-    font-family: Apple SD Gothic Neo;
+    /* bubble */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 50px;
-    /* or 167% */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 175% */
     
-    letter-spacing: 0.05em;
+    letter-spacing: 0.07em;
     
     color: #000000;
 }
 
+.insight-bg{
+    position: absolute;
+width: 1440px;
+height: 448px;
+left: 0px;
+top: 4752px;
 
+background: #EAC8FF;
+}
 .insight-rec{
 
     position: absolute;
-    width: 706px;
-    height: 328px;
-    left: 91px;
-    top: 4262px;
+    width: 662px;
+    height: 370px;
+    left: 144px;
+    top: 4791px;
     
     background: #FFFDFD;
     border: 2px solid #6F6F6F;
@@ -874,49 +980,52 @@ letter-spacing: 0.05em;
 }
 .insight{
     position: absolute;
-    width: 67px;
-    height: 27px;
-    left: 110px;
-    top: 4280px;
+    width: 50px;
+    height: 18px;
+    left: 167px;
+    top: 4818px;
     
-    font-family: Apple SD Gothic Neo;
+    /* subtitle */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-    /* identical to box height, or 135% */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;    
-}
-
-.insight-text{
-    position: absolute;
-    width: 662px;
-    height: 152px;
-    left: 110px;
-    top: 4318px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
     
     letter-spacing: 0.05em;
     
     color: #000000;
+}
+
+.insight-text{
+    position: absolute;
+    width: 604px;
+    height: 152px;
+    left: 166px;
+    top: 4890px;
     
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
 }
 
 .challenge-rec{
     position: absolute;
-    width: 505px;
-    height: 328px;
-    left: 842px;
-    top: 4262px;
+    width: 439px;
+    height: 370px;
+    left: 857px;
+    top: 4791px;
     
     background: #FFFDFD;
     border: 2px solid #6F6F6F;
@@ -926,50 +1035,84 @@ letter-spacing: 0.05em;
 
 .challenge{
     position: absolute;
-    width: 140px;
-    height: 27px;
-    left: 862px;
-    top: 4280px;
+    width: 135px;
+    height: 18px;
+    left: 885px;
+    top: 4818px;
     
-    font-family: Apple SD Gothic Neo;
+    /* subtitle */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-    /* identical to box height, or 135% */
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
     
     letter-spacing: 0.05em;
     
-    color: #000000;      
+    color: #000000;
+    
 }
 
 .challenge-text{
     position: absolute;
-    width: 452px;
+    width: 389px;
     height: 248px;
-    left: 862px;
-    top: 4318px;
+    left: 885px;
+    top: 4890px;
     
-    font-family: Apple SD Gothic Neo;
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
     
     letter-spacing: 0.05em;
     
-    color: #000000;    
+    color: #000000;
+       
 }
 
-.methods{
 
+
+
+
+
+.analysis{
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    left: 143px;
+    top: 5371px;
+    
+    /* head */
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+
+.persona{
+ 
 position: absolute;
-
+width: 59px;
 height: 18px;
-left: 88px;
-top: 4650px;
-font-family: Apple SD Gothic Neo;
+left: 144px;
+top: 5545px;
+
+font-family: 'Apple SD Gothic Neo';
 font-style: normal;
 font-weight: 800;
 font-size: 15px;
@@ -980,506 +1123,36 @@ letter-spacing: 0.05em;
 
 color: #000000;
 }
-
-
-.methods-line{
-position: absolute;
-width: 133px;
-height: 0px;
-left: 89px;
-top: 4668px;
-
-border: 1px solid #000000;
-}
-
-.methods-img1{
-    position: absolute;
-    width: 405px;
-    height: 373px;
-    left: 36px;
-    top: 4724px;
-}
-.methods-img2{
-    position: absolute;
-    width: 499px;
-    height: 394px;
-    left: 483px;
-    top: 4724px;
-}
-.methods-img3{
-    position: absolute;
-    width: 384px;
-    height: 365px;
-    left: 1004px;
-    top: 4724px;
-}
-
-
-
-
-.analysis{
-    position: absolute;
-    width: 200px;
-    height: 60px;
-    left: 91px;
-    top: 5308px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-}
-
-.persona{
-    position: absolute;
-    width: 59px;
-    height: 18px;
-    left: 92px;
-    top: 5482px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-        
-}
 .persona-line{
+
     position: absolute;
     width: 55px;
     height: 0px;
-    left: 93px;
-    top: 5500px;
+    left: 145px;
+    top: 5563px;
     
     border: 1px solid #000000;
 }
 
 .persona1{
     position: absolute;
-    width: 152px;
-    height: 150px;
-    left: 85px;
-    top: 5552px;
+    width: 1157px;
+    height: 406px;
+    left: 147px;
+    top: 5615px;
 }
 
-.persona2{
-    position: absolute;
-    width: 153px;
-    height: 142px;
-    left: 777px;
-    top: 5562px;    
-}
 
-.bio{
-    position: absolute;
-    width: 26px;
-    height: 18px;
-    left: 264px;
-    top: 5562px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-      
-}
-.bio-text{
-    position: absolute;
-    width: 398px;
-    height: 108px;
-    left: 264px;
-    top: 5586px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-}
 
-.bio1{
-    position: absolute;
-    width: 26px;
-    height: 18px;
-    left: 957px;
-    top: 5569px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000; 
-}
-
-.bio1-text{
-    position: absolute;
-    width: 397px;
-    height: 72px;
-    left: 957px;
-    top: 5596px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-}
-
-.name{
-    position: absolute;
-    width: 41px;
-    height: 18px;
-    left: 133px;
-    top: 5741px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;    
-}
-.name1{
-    position: absolute;
-
-    height: 18px;
-    left: 264px;
-    top: 5741px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;    
-}
-.name2{
-    position: absolute;
-    width: 41px;
-    height: 18px;
-    left: 826px;
-    top: 5741px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;    
-}
-.name3{
-    position: absolute;
-
-    height: 18px;
-    left: 957px;
-    top: 5741px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;    
-}
-
-.age{
-    position: absolute;
-    width: 28px;
-    height: 18px;
-    left: 133px;
-    top: 5769px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-}
-.age1{
-    position: absolute;
-    width: 14px;
-    height: 18px;
-    left: 264px;
-    top: 5769px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-}
-.age2{
-    position: absolute;
-    width: 28px;
-    height: 18px;
-    left: 826px;
-    top: 5769px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-}
-.age3{
-    position: absolute;
-    width: 17px;
-    height: 18px;
-    left: 957px;
-    top: 5769px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-}
-.occupation{
-    position: absolute;
-    width: 83px;
-    height: 18px;
-    left: 133px;
-    top: 5797px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-}
-.occupation1{
-    position: absolute;
-    width: 54px;
-    height: 18px;
-    left: 264px;
-    top: 5797px;   
-}
-.occupation2{
-    position: absolute;
-    width: 83px;
-    height: 18px;
-    left: 826px;
-    top: 5797px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;    
-}
-.occupation3{
-    position: absolute;
-    width: 40px;
-    height: 18px;
-    left: 957px;
-    top: 5797px;    
-}
-.brands{
-    position: absolute;
-    width: 50px;
-    height: 18px;
-    left: 133px;
-    top: 5830px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-}
-.brands1{
-    position: absolute;
-    width: 145px;
-    height: 18px;
-    left: 264px;
-    top: 5830px;
-       
-}
-.brands2{
-    position: absolute;
-    width: 50px;
-    height: 18px;
-    left: 826px;
-    top: 5830px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;    
-}
-.brands3{
-    position: absolute;
-    width: 210px;
-    height: 18px;
-    left: 957px;
-    top: 5830px;    
-}
-
-.goal{
-    position: absolute;
-    width: 33px;
-    height: 18px;
-    left: 133px;
-    top: 5867px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-}
-.goal1{
- 
-position: absolute;
-width: 396px;
-height: 36px;
-left: 264px;
-top: 5867px;   
-}
-.goal2{
-    position: absolute;
-    width: 40px;
-    height: 18px;
-    left: 826px;
-    top: 5867px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;   
-}
-.goal3{
-    position: absolute;
-    width: 396px;
-    height: 36px;
-    left: 957px;
-    top: 5867px;    
-}
-
-.frus{
-    position: absolute;
-    width: 82px;
-    height: 18px;
-    left: 133px;
-    top: 5927px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-}
-.frus1{
-
-    position: absolute;
-    width: 396px;
-    height: 54px;
-    left: 264px;
-    top: 5922px;    
-}
-.frus2{
-    position: absolute;
-    width: 82px;
-    height: 18px;
-    left: 826px;
-    top: 5922px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;    
-}
-.frus3{
-    position: absolute;
-    width: 397px;
-    height: 18px;
-    left: 957px;
-    top: 5922px;   
-}
 
 .map{
     position: absolute;
-
+    width: 98px;
     height: 18px;
-    left: 89px;
-    top: 6079px;
+    left: 145px;
+    top: 6142px;
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
@@ -1487,645 +1160,124 @@ top: 5867px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
+    
+    color: #000000;
+    
     
 }
 .map-line{
     position: absolute;
     width: 93px;
     height: 0px;
-    left: 90px;
-    top: 6097px;
+    left: 146px;
+    top: 6160px;
     
     border: 1px solid #000000;
 }
-.map-persona{
-    position: absolute;
-    width: 153px;
-    height: 142px;
-    left: 158px;
-    top: 6132px;
-    
-}
-.map-text{
-    position: absolute;
-    width: 933px;
-    height: 54px;
-    left: 371px;
-    top: 6172px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: 0.05em;
-}
+
 .map-img{
     position: absolute;
-    width: 1227px;
-    height: 527px;
+    width: 1151px;
+    height: 689.38px;
     left: 145px;
-    top: 6338px;
+    top: 6210px;
+    
 }
 
 .core{
     position: absolute;
-
+    width: 225px;
     height: 18px;
-    left: 89px;
-    top: 6996px;
+    left: 144px;
+    top: 7277px;
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
     /* identical to box height */
-    
-    letter-spacing: 0.05em;
-    
-}
-.core-line{
-    position: absolute;
-    width: 164px;
-    height: 0px;
-    left: 90px;
-    top: 7014px;
-    
-    border: 1px solid #000000;
-}
-
-.c-1-line{
-    position: absolute;
-    width: 372px;
-    height: 0px;
-    left: 302px;
-    top: 7268px;
-    
-    border: 1px solid #000000;
-}
-.c-1-rec{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 89px;
-    top: 7068px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;   
-}
-.c-1-rec1{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 378px;
-    top: 7068px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-}
-.c-1-rec2{
-    position: absolute;
-    width: 672px;
-    height: 378px;
-    left: 673px;
-    top: 7068px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-}
-.c-1-num{
-    position: absolute;
-    width: 22px;
-    height: 27px;
-    left: 108px;
-    top: 7105px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-    /* identical to box height, or 135% */
-    
-    letter-spacing: 0.05em;
-}
-.c-1-needs{
-    position: absolute;
-    width: 164px;
-    height: 108px;
-    left: 108px;
-    top: 7248px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-}
-.c-1-func{
-    position: absolute;
-    width: 129px;
-    height: 108px;
-    left: 397px;
-    top: 7248px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-}
-.c-1-img{
-    position: absolute;
-    width: 558.45px;
-    height: 343px;
-    left: 730px;
-    top: 7086px;
-    
-}
-
-
-.c-2-line{
-    position: absolute;
-    width: 372px;
-    height: 0px;
-    left: 302px;
-    top: 7762px;
-    
-    border: 1px solid #000000;
-}
-.c-2-rec{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 89px;
-    top: 7562px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;    
-}
-.c-2-rec1{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 378px;
-    top: 7562px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-}
-.c-2-rec2{
-    position: absolute;
-    width: 672px;
-    height: 378px;
-    left: 673px;
-    top: 7562px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-}
-.c-2-num{
-    position: absolute;
-    width: 25px;
-    height: 27px;
-    left: 108px;
-    top: 7599px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-    /* identical to box height, or 135% */
-    
-    letter-spacing: 0.05em;
-}
-.c-2-needs{
-    position: absolute;
-    width: 164px;
-    height: 108px;
-    left: 108px;
-    top: 7742px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-}
-.c-2-func{
-    position: absolute;
-    width: 174px;
-    height: 108px;
-    left: 397px;
-    top: 7742px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-}
-.c-2-img{
-    position: absolute;
-    width: 355.02px;
-    height: 343px;
-    left: 831px;
-    top: 7580px;
-}
-
-.c-3-line{
-    position: absolute;
-    width: 372px;
-    height: 0px;
-    left: 302px;
-    top: 8256px;
-    
-    border: 1px solid #000000;
-}
-.c-3-rec{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 89px;
-    top: 8056px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;   
-}
-.c-3-rec1{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 378px;
-    top: 8056px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-}
-.c-3-rec2{
-    position: absolute;
-    width: 672px;
-    height: 378px;
-    left: 673px;
-    top: 8056px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-}
-.c-3-num{
-    position: absolute;
-    width: 25px;
-    height: 27px;
-    left: 108px;
-    top: 8093px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-    /* identical to box height, or 135% */
-    
-    letter-spacing: 0.05em;
-    
-}
-.c-3-needs{
-    position: absolute;
-    width: 164px;
-    height: 81px;
-    left: 108px;
-    top: 8236px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-}
-.c-3-func{
-    position: absolute;
-    width: 134px;
-    height: 81px;
-    left: 397px;
-    top: 8236px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-    
-}
-.c-3-img{
-    position: absolute;
-    width: 359.21px;
-    height: 348px;
-    left: 829px;
-    top: 8071px;
-}
-
-.c-4-line{
-    position: absolute;
-    width: 372px;
-    height: 0px;
-    left: 302px;
-    top: 8750px;
-    
-    border: 1px solid #000000;
-}
-.c-4-rec{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 89px;
-    top: 8550px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;   
-}
-.c-4-rec1{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 378px;
-    top: 8550px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-}
-.c-4-rec2{
-    position: absolute;
-    width: 672px;
-    height: 378px;
-    left: 673px;
-    top: 8550px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-}
-.c-4-num{
-    position: absolute;
-    width: 27px;
-    height: 27px;
-    left: 108px;
-    top: 8587px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-    /* identical to box height, or 135% */
     
     letter-spacing: 0.05em;
     
     color: #000000;
     
 }
-.c-4-needs{
+.core-line{
     position: absolute;
-    width: 164px;
-    height: 108px;
-    left: 108px;
-    top: 8730px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-    
-}
-.c-4-func{
-    position: absolute;
-    width: 172px;
-    height: 81px;
-    left: 397px;
-    top: 8730px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-    
-}
-.c-4-img{
-    position: absolute;
-    width: 352.63px;
-    height: 343px;
-    left: 833px;
-    top: 8568px;
-}
-
-.c-5-line{
-    position: absolute;
-    width: 372px;
+    width: 206px;
     height: 0px;
-    left: 302px;
-    top: 9244px;
+    left: 145px;
+    top: 7295px;
     
     border: 1px solid #000000;
 }
-.c-5-rec{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 89px;
-    top: 9044px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;    
-}
-.c-5-rec1{
-    position: absolute;
-    width: 213px;
-    height: 378px;
-    left: 378px;
-    top: 9044px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-    
-}
-.c-5-rec2{
-    position: absolute;
-    width: 672px;
-    height: 378px;
-    left: 673px;
-    top: 9044px;
-    
-    background: #FFFDFD;
-    border: 2px solid #6F6F6F;
-    box-shadow: 2px 2px 5px 2px #EAC8FF;
-    border-radius: 10px;
-    
-}
-.c-5-num{
-    position: absolute;
-    width: 25px;
-    height: 27px;
-    left: 108px;
-    top: 9081px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-    /* identical to box height, or 135% */
-    
-    letter-spacing: 0.05em;
-}
-.c-5-needs{
-    position: absolute;
-    width: 164px;
-    height: 81px;
-    left: 108px;
-    top: 9224px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-}
-.c-5-func{
-    position: absolute;
-    width: 178px;
-    height: 81px;
-    left: 397px;
-    top: 9224px;
-    
-    font-family: Apple SD Gothic Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    /* or 135% */
-    
-    letter-spacing: 0.05em;
-    
-}
-.c-5-img{
-    position: absolute;
-    width: 158.21px;
-    height: 343px;
-    left: 930px;
-    top: 9062px;
-}
 
-
-
+.core-img{
+    position: absolute;
+width: 1142px;
+height: 2182px;
+left: 145px;
+top: 7349px;
+}
 .design{
     position: absolute;
-    width: 163px;
-    height: 60px;
-    left: 91px;
-    top: 9605px;
+    width: 114px;
+    height: 42px;
+    left: 143px;
+    top: 7109px;
     
-    font-family: Apple SD Gothic Neo;
+    /* head */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 42px;
     /* identical to box height */
     
-    letter-spacing: 0.05em;    
+    letter-spacing: 0.05em;
+    
+    color: #000000;  
 }
 
 .workflow{
     position: absolute;
     width: 70px;
     height: 18px;
-    left: 89px;
-    top: 9779px;
+    left: 145px;
+    top: 9684px;
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
     /* identical to box height */
     
-    letter-spacing: 0.05em;   
+    letter-spacing: 0.05em;
+    
+    color: #000000;
 }
 
 .workflow-line{
     position: absolute;
     width: 69px;
     height: 0px;
-    left: 87px;
-    top: 9797px;
+    left: 143px;
+    top: 9702px;
     
-    border: 1px solid #000000;   
+    border: 1px solid #000000;
 }
 
 .wireframe{
     position: absolute;
     width: 76px;
     height: 18px;
-    left: 416px;
-    top: 9779px;
+    left: 443px;
+    top: 9684px;
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
@@ -2133,26 +1285,28 @@ top: 5867px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
+    
+    color: #000000;
 }
 
 .wireframe-line{
     position: absolute;
-    width: 73px;
-    height: 0px;
-    left: 417px;
-    top: 9797px;
-    
-    border: 1px solid #000000;   
+width: 69px;
+height: 0px;
+left: 444px;
+top: 9702px;
+
+border: 1px solid #000000;
 }
 
 .sh{
     position: absolute;
-
+    width: 245px;
     height: 18px;
     left: 890px;
-    top: 9779px;
+    top: 9684px;
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
@@ -2160,6 +1314,8 @@ top: 5867px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
+    
+    color: #000000;
 
 }
 .sh-line{
@@ -2168,45 +1324,44 @@ top: 5867px;
     width: 241px;
     height: 0px;
     left: 891px;
-    top: 9797px;
+    top: 9702px;
     
     border: 1px solid #000000;
 }
 
 .d-1-img{
     position: absolute;
-    width: 284px;
-    height: 354px;
-    left: 70px;
-    top: 9839px;
+    width: 253px;
+    height: 315px;
+    left: 124px;
+    top: 9770px;
 }
 .d-2-img{
     position: absolute;
-    width: 428px;
-    height: 396px;
-    left: 397px;
-    top: 9818px;   
+    width: 381px;
+    height: 353px;
+    left: 417px;
+    top: 9751px;
 }
 .d-3-img{
     position: absolute;
-    width: 479px;
-    height: 365px;
-    left: 905px;
-    top: 9833px;    
+    width: 427px;
+    height: 325px;
+    left: 869px;
+    top: 9764px;
 }
-
 
 .bottom-text{
     position: absolute;
     width: 620px;
     height: 150px;
     left: 653px;
-    top: 10584px;
+    top: 10300px;
     
     font-family: Apple SD Gothic Neo;
     font-style: normal;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 20px;
     line-height: 75px;
     /* or 187% */
     
@@ -2217,28 +1372,65 @@ top: 5867px;
 }
 .meme{
 
-    position: absolute;
-width: 242px;
-height: 242px;
+position: absolute;
+width: 150px;
+height: 150px;
 left: 1113px;
-top: 10750px;
+top: 10500px;
+}
+
+#meme .img{
+    width: 150px;
+    height: 150px;
 }
 
 .back{
     position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 1113px;
+    top: 11031px;
+    
+    /* bubble */
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    /* identical to box height, or 175% */
+    
+    letter-spacing: 0.07em;
+    
+    color: #000000;
+    
+    
+}
 
-height: 75px;
-left: 1000px;
-top: 11163px;
+.btm{
+    position: absolute;
+    width: 838px;
+    height: 578px;
+    left: 301px;
+    top: 10272px;  
+}
 
-font-family: Apple SD Gothic Neo;
-font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 75px;
-/* identical to box height, or 187% */
-
-letter-spacing: 0.05em;
-
-color: #000000;
+.bt-text{
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 1054px;
+    top: 10225px;
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 140%;
+    /* or 24px */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+       
 }

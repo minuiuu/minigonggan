@@ -5,7 +5,7 @@ body{
   
   position: relative;
   width: 1440px;
-  height: 10000px;
+  height: 9300px;
   font-family: Apple SD Gothic Neo;
   font-style: normal;
   font-weight: 500;
@@ -34,7 +34,7 @@ body{
     left: 0px;
     top: 0px;
     
-    background: url(img1/concreate-top-bg.png);
+    background: url(img1/c-bg.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -124,25 +124,27 @@ body{
 
 .emoji{
     position: absolute;
-
+    width: 194px;
     height: 36px;
-    left: 88px;
-    top: 1032px;
+    left: 146px;
+    top: 1037px;
 }
 
 
 .title{
     position: absolute;
-    width: 186px;
-    height: 60px;
-    left: 91px;
+    width: 171px;
+    height: 42px;
+    left: 143px;
     top: 1081px;
     
-    font-family: Apple SD Gothic Neo;
+    /* head */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 42px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
@@ -152,24 +154,26 @@ body{
 
 .subtitle-rec{
     position: absolute;
-    width: 410px;
-    height: 32px;
-    left: 88px;
-    top: 1233px;
+    width: 416px;
+    height: 23px;
+    left: 143px;
+    top: 1227px;
     
     background: #EAC8FF;
 }
 
 .subtitle{
     position: absolute;
-
+    width: 430px;
     height: 30px;
-    left: 91px;
-    top: 1233px;
+    left: 153px;
+    top: 1223px;
     
-    font-family: Apple SD Gothic Neo;
+    /* title */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 25px;
     line-height: 30px;
     /* identical to box height */
@@ -181,11 +185,11 @@ body{
 
 
 .school{
+
     position: absolute;
-    width: 310px;
     height: 18px;
-    left: 91px;
-    top: 1268px;
+    left: 142px;
+    top: 1270px;
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
@@ -201,20 +205,20 @@ body{
 
 .role{
     position: absolute;
-    width: 39px;
+    width: 32px;
     height: 18px;
-    left: 91px;
+    left: 146px;
     top: 1368px;
-
-    font-family: Apple SD Gothic Neo;
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
     /* identical to box height */
-
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 
 
@@ -224,9 +228,9 @@ body{
 
 .role-line{
     position: absolute;
-    width: 39px;
+    width: 30px;
     height: 0px;
-    left: 91px;
+    left: 146px;
     top: 1386px;
     
     border: 1px solid #000000;
@@ -234,16 +238,20 @@ body{
 
 .role-text{
     position: absolute;
-    width: 400px;
-    height: 150px;
-    left: 91px;
+    width: 114px;
+    height: 84px;
+    left: 146px;
     top: 1416px;
     
-    font-family: Apple SD Gothic Neo;
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
     letter-spacing: 0.05em;
     
     color: #000000;
@@ -251,79 +259,77 @@ body{
 
 .time-line{
     position: absolute;
-    width: 89px;
+    width: 93px;
     height: 0px;
-    left: 371px;
+    left: 340px;
     top: 1386px;
     
     border: 1px solid #000000;
 }
 
 .time{
-
     position: absolute;
-    width: 110px;
+    width: 100px;
     height: 18px;
-    left: 371px;
+    left: 340px;
     top: 1368px;
-
+    
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
     /* identical to box height */
-
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 
 }
 
 .time-text{
     position: absolute;
-    width: 110px;
-    height: 30px;
-    left: 371px;
+    width: 62px;
+    height: 28px;
+    left: 340px;
     top: 1416px;
-
+    
+    /* text */
+    
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
-    /* identical to box height */
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 }
 
 
-br{
 
-        display: block;
-        margin: 3px 0;
-
-}
 
 .overview{
 
     position: absolute;
     width: 69px;
     height: 18px;
-    left: 702px;
-    top: 1272px;
-
-    font-family: Apple SD Gothic Neo;
+    left: 732px;
+    top: 1223px;
+    
+    /* subtitle */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
     /* identical to box height */
-
+    
     letter-spacing: 0.05em;
-
+    
     color: #000000;
 
     
@@ -334,46 +340,51 @@ br{
     position: absolute;
     width: 68px;
     height: 0px;
-    left: 703px;
-    top: 1290px;
-
+    left: 733px;
+    top: 1241px;
+    
     border: 1px solid #000000;
+    
 }
 
 .overview-text{
     position: absolute;
-    width: 643px;
-    height: 244px;
-    left: 702px;
-    top: 1332px;
+    width: 566px;
+    height: 224px;
+    left: 732px;
+    top: 1265px;
     
-    font-family: Apple SD Gothic Neo;
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
     
-    display: flex;
-    align-items: flex-end;
     letter-spacing: 0.05em;
     
     color: #000000;
+    
 }
 
 
 .define{
+
     position: absolute;
-    width: 158px;
-    height: 60px;
-    left: 91px;
+    width: 111px;
+    height: 42px;
+    left: 143px;
     top: 1735px;
     
-    font-family: Apple SD Gothic Neo;
+    /* head */
+    
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 42px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
@@ -386,10 +397,10 @@ br{
     position: absolute;
     width: 35px;
     height: 18px;
-    left: 83px;
-    top: 1934px;
+    left: 144px;
+    top: 1964px;
     
-    font-family: Apple SD Gothic Neo;
+    font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
@@ -399,38 +410,41 @@ br{
     letter-spacing: 0.05em;
     
     color: #000000;
+    
 }
 
 .brief-line{
       /* Line 10 */
     
-    
       position: absolute;
       width: 34px;
       height: 0px;
-      left: 83px;
-      top: 1952px;
+      left: 144px;
+      top: 1982px;
       
       border: 1px solid #000000;
 }
 
 .brief-text{
     position: absolute;
-    width: 512px;
-    height: 359px;
-    left: 88px;
-    top: 2035px;
+    width: 490px;
+    height: 208px;
+    left: 144px;
+    top: 2065px;
+    
+    /* text */
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
     
     letter-spacing: 0.05em;
     
     color: #000000;
+    
 }
 
 
@@ -438,8 +452,8 @@ br{
     position: absolute;
     width: 70px;
     height: 18px;
-    left: 702px;
-    top: 1934px;
+    left: 733px;
+    top: 1964px;
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
@@ -454,28 +468,31 @@ br{
 }
 
 .approach-line{ 
+
     position: absolute;
     width: 68px;
     height: 0px;
-    left: 702px;
-    top: 1952px;
+    left: 734px;
+    top: 1982px;
     
     border: 1px solid #000000;
 }
 
 .approach-text{
     position: absolute;
-    width: 627px;
-    height: 338px;
-    left: 702px;
-    top: 2033px;
+    width: 563px;
+    height: 140px;
+    left: 733px;
+    top: 2063px;
+    
+    /* text */
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
     
     letter-spacing: 0.05em;
     
@@ -485,29 +502,33 @@ br{
 
 .research{
     position: absolute;
-    width: 219px;
-    height: 60px;
-    left: 91px;
-    top: 2617px;
+    width: 153px;
+    height: 42px;
+    left: 143px;
+    top: 2690px;
+    
+    /* head */
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 42px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
     
     color: #000000;
+    
 }
 
 .miro{
+
     position: absolute;
-    width: 360px;
+    width: 660px;
     height: 18px;
-    left: 83px;
-    top: 2871px;
+    left: 143px;
+    top: 2800px;
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
@@ -523,184 +544,94 @@ br{
 
 .miro-line{
     position: absolute;
-    width: 351px;
+    width: 133px;
     height: 0px;
-    left: 84px;
-    top: 2889px;
+    left: 144px;
+    top: 2818px;
     
     border: 1px solid #000000;
+    
 }
 
 .miro-text{
     position: absolute;
-    width: 482px;
-    height: 227px;
-    left: 88px;
-    top: 2971px;
+    width: 434px;
+    height: 391px;
+    left: 143px;
+    top: 3311px;
+    
+    /* text */
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
     
     letter-spacing: 0.05em;
     
     color: #000000;
     
+}
+
+.miro-text2{
+    position: absolute;
+    width: 657px;
+    height: 391px;
+    left: 634px;
+    top: 3311px;
+    
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;  
 }
 
 .miro-img{
     position: absolute;
-    width: 570px;
-    height: 489px;
-    left: 703px;
-    top: 2683px;
+    width: 1153px;
+    height: 370px;
+    left: 143px;
+    top: 2886px;
     
-    background: url(img1/miro-img.svg);
 }
 
-
-.primary{
-    position: absolute;
-    width: 132px;
-    height: 18px;
-    left: 83px;
-    top: 3330px;
-    
-    font-family: 'Apple SD Gothic Neo';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-}
-
-.primary-line{
-    position: absolute;
-    width: 127px;
-    height: 0px;
-    left: 83px;
-    top: 3348px;
-    
-    border: 1px solid #000000;
-}
-.primary-img{
-
-    position: absolute;
-    width: 435px;
-    height: 371px;
-    left: 83px;
-    top: 3398px;
-    
-    background: url(img1/pri-img.svg);
-}
-.primary-text{
-    position: absolute;
-    width: 426px;
-    height: 247px;
-    left: 83px;
-    top: 3819px;
-    
-    font-family: 'Apple SD Gothic Neo';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-}
-
-
-.secondary{
-    position: absolute;
-    width: 152px;
-    height: 18px;
-    left: 630px;
-    top: 3330px;
-    
-    font-family: 'Apple SD Gothic Neo';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-    
-}
-.secondary-line{
-
-    position: absolute;
-    width: 146px;
-    height: 0px;
-    left: 631px;
-    top: 3348px;
-    
-    border: 1px solid #000000;
-}
-.secondary-img{
-    position: absolute;
-    width: 680px;
-    height: 374px;
-    left: 630px;
-    top: 3398px;
-    
-    background: url(img1/sec-img.svg);
-}
-.secondary-text{
-    position: absolute;
-    width: 680px;
-    height: 341px;
-    left: 630px;
-    top: 3819px;
-    
-    font-family: 'Apple SD Gothic Neo';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-}
 
 .me{
+
     position: absolute;
     width: 192px;
     height: 192px;
-    left: 99px;
-    top: 4271px;
+    left: 226px;
+    top: 3895px;
 }
 
 .p1{
 
     position: absolute;
-    width: 192px;
-    height: 30px;
-    left: 1101px;
-    top: 4306px;
+    width: 379px;
+    height: 20px;
+    left: 514px;
+    top: 3912px;
     
     background: #EAC8FF;
 }
 .p2{
+
     position: absolute;
-    width: 261px;
-    height: 30px;
-    left: 325px;
-    top: 4359px;
+    width: 313px;
+    height: 20px;
+    left: 885px;
+    top: 3989px;
     
     background: #EAC8FF;
 }
@@ -716,29 +647,93 @@ background: #EAC8FF;
 
 .p1-t{
     position: absolute;
-    width: 984px;
-    height: 100px;
-    left: 326px;
-    top: 4298px;
+    width: 724px;
+    height: 70px;
+    left: 518px;
+    top: 3871px;
+    
+    /* bubble */
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 50px;
-    /* or 167% */
+    font-size: 20px;
+    line-height: 35px;
+    /* or 175% */
     
-    letter-spacing: 0.05em;
+    letter-spacing: 0.07em;
     
     color: #000000;
 }
 
-.cb{
+.p2-t{
     position: absolute;
-    width: 300px;
+    width: 724px;
+    height: 35px;
+    left: 567px;
+    top: 3981px;
+    
+    /* bubble */
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    /* identical to box height, or 175% */
+    
+    letter-spacing: 0.07em;
+    
+    color: #000000;
+    
+}
+
+
+.insight-bg{
+
+position: absolute;
+width: 1440px;
+height: 562px;
+left: 0px;
+top: 4235px;
+
+background: #EAC8FF;
+}
+
+.insight-w{
+    position: absolute;
+width: 662px;
+height: 479px;
+left: 144px;
+top: 4274px;
+
+background: #FFFDFD;
+border: 2px solid #6F6F6F;
+box-shadow: 2px 2px 5px 2px #EAC8FF;
+border-radius: 10px;
+}
+
+.ux-challenge-w{
+    position: absolute;
+width: 439px;
+height: 479px;
+left: 857px;
+top: 4274px;
+
+background: #FFFDFD;
+border: 2px solid #6F6F6F;
+box-shadow: 2px 2px 5px 2px #EAC8FF;
+border-radius: 10px;
+}
+
+.insight{
+    position: absolute;
+    width: 50px;
     height: 18px;
-    left: 83px;
-    top: 4598px;
+    left: 167px;
+    top: 4301px;
+    
+    /* subtitle */
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
@@ -749,49 +744,86 @@ background: #EAC8FF;
     
     letter-spacing: 0.05em;
     
-    color: #000000;
-}
-.cb-line{
-    position: absolute;
-    width: 273px;
-    height: 0px;
-    left: 83px;
-    top: 4616px;
-    
-    border: 1px solid #000000;
-}
-.cb-text{
-    position: absolute;
-    width: 1196px;
-    height: 150px;
-    left: 112px;
-    top: 4655px;
-    
-    font-family: 'Apple SD Gothic Neo';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-    
+    color: #000000;  
 }
 
-.design{
+.insight-text{
     position: absolute;
-    width: 163px;
-    height: 60px;
-    left: 91px;
-    top: 4967px;
+width: 604px;
+height: 306px;
+left: 173px;
+top: 4373px;
+
+/* text */
+
+font-family: 'Apple SD Gothic Neo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+.ux-challenge{
+    position: absolute;
+    width: 135px;
+    height: 18px;
+    left: 885px;
+    top: 4301px;
+    
+    /* subtitle */
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;   
+}
+
+.ux-challenge-text{
+    position: absolute;
+    width: 389px;
+    height: 368px;
+    left: 882px;
+    top: 4373px;
+    
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;  
+}
+
+.design{
+    position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 143px;
+    top: 4984px;
+    
+    /* head */
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
     /* identical to box height */
     
     letter-spacing: 0.05em;
@@ -802,66 +834,10 @@ background: #EAC8FF;
 
 .crazy8{
     position: absolute;
-    width: 100px;
+    width: 70px;
     height: 18px;
-    left: 83px;
-    top: 5077px;
-    
-    font-family: 'Apple SD Gothic Neo';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 18px;
-    /* identical to box height */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-}
-.crazy8-line{
-
-    position: absolute;
-    width: 80px;
-    height: 0px;
-    left: 83px;
-    top: 5095px;
-    
-    border: 1px solid #000000;
-}
-.crazy8-img{
-    position: absolute;
-    width: 359px;
-    height: 304px;
-    left: 83px;
-    top: 5143px;
-    
-    background: url(img1/crazy8.svg);
-}
-.crazy8-text{
-    position: absolute;
-    width: 797px;
-    height: 390px;
-    left: 513px;
-    top: 5173px;
-    
-    font-family: 'Apple SD Gothic Neo';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
-    
-    letter-spacing: 0.05em;
-    
-    color: #000000;
-}
-
-.sketch{
-    position: absolute;
-    width: 270px;
-    height: 18px;
-    left: 83px;
-    top: 5540px;
+    left: 144px;
+    top: 5127px;
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
@@ -874,13 +850,74 @@ background: #EAC8FF;
     
     color: #000000;
 }
+.crazy8-line{
+    position: absolute;
+    width: 61px;
+    height: 0px;
+    left: 145px;
+    top: 5145px;
+    
+    border: 1px solid #000000;
+}
+.crazy8-img{
+    position: absolute;
+    width: 359px;
+    height: 304px;
+    left: 144px;
+    top: 5205px;
+    
+    background: url(img1/c-img3.svg);
+}
+.crazy8-text{
+    position: absolute;
+    width: 714px;
+    height: 391px;
+    left: 576px;
+    top: 5205px;
+    
+    /* text */
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+
+.sketch{
+
+    position: absolute;
+    width: 280px;
+    height: 18px;
+    left: 144px;
+    top: 5640px;
+    
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
 
 .sketch-line{
+
     position: absolute;
-    width: 257px;
+    width: 251px;
     height: 0px;
-    left: 83px;
-    top: 5558px;
+    left: 145px;
+    top: 5658px;
     
     border: 1px solid #000000;
 }
@@ -889,25 +926,27 @@ background: #EAC8FF;
     position: absolute;
     width: 1116px;
     height: 412px;
-    left: 145px;
-    top: 5574px;
-    background: url(img1/sketch-img1.svg);
+    left: 171px;
+    top: 5706px;
 
 }
 
 .sketch-text{
+
     position: absolute;
-    width: 1230px;
-    height: 336px;
-    left: 83px;
-    top: 6024px;
+    width: 1147px;
+    height: 308px;
+    left: 143px;
+    top: 6152px;
+    
+    /* text */
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
     
     letter-spacing: 0.05em;
     
@@ -918,17 +957,17 @@ background: #EAC8FF;
     position: absolute;
     width: 670px;
     height: 315px;
-    left: 164px;
-    top: 6491px;
-    background: url(img1/sketch2.svg);
+    left: 179px;
+    top: 6630px;
+    
 }
 
 .sketch-img3{
     position: absolute;
     width: 601px;
     height: 338px;
-    left: 165px;
-    top: 6885px;
+    left: 179px;
+    top: 7024px;
 
 }
 
@@ -936,19 +975,18 @@ background: #EAC8FF;
     position: absolute;
     width: 372px;
     height: 754px;
-    left: 923px;
-    top: 6491px;
-    
-    background: url(img1/sketch4.svg);
+    left: 938px;
+    top: 6630px;
 }
 
 .final{
 
+
     position: absolute;
-    width: 95px;
+    width: 99px;
     height: 18px;
-    left: 83px;
-    top: 7439px;
+    left: 144px;
+    top: 7656px;
     
     font-family: 'Apple SD Gothic Neo';
     font-style: normal;
@@ -966,17 +1004,18 @@ background: #EAC8FF;
     position: absolute;
     width: 88px;
     height: 0px;
-    left: 83px;
-    top: 7457px;
+    left: 145px;
+    top: 7674px;
     
     border: 1px solid #000000;
 }
 .final-img{
+
     position: absolute;
-    width: 822px;
-    height: 1181px;
-    left: 253px;
-    top: 7537px;
+    width: 916px;
+    height: 1316px;
+    left: 262px;
+    top: 7753px;
 }
 
 
@@ -1013,18 +1052,18 @@ background: #EAC8FF;
 .back{
     position: absolute;
 
-height: 75px;
-left: 1000px;
-top: 9800px;
 
-font-family: Apple SD Gothic Neo;
+left: 1146px;
+top: 9171px;
+
+font-family: 'Apple SD Gothic Neo';
 font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 75px;
-/* identical to box height, or 187% */
+font-weight: 700;
+font-size: 20px;
+line-height: 35px;
+/* identical to box height, or 175% */
 
-letter-spacing: 0.05em;
+letter-spacing: 0.07em;
 
 color: #000000;
 }
